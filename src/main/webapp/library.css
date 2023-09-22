@@ -1,0 +1,94 @@
+@charset "UTF-8";
+body {
+		background-image : url(andy_room.png);
+		background-size : contain;
+       	display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100vh;
+        padding: 20px;
+     }
+.container {
+         	text-align: center;
+   			}
+
+.label-input {
+	         display: flex;
+	         justify-content: center;
+	         align-items: center;
+	         margin-bottom: 10px;
+     		}
+
+.label {
+         width: 100px;
+     }
+
+.input-field {
+         width: 300px;
+     }
+
+.btn-group {
+         margin-top: 20px;
+     }
+
+.btn-group input {
+         margin-right: 10px;
+     }
+     
+table {
+	background-color: #FAFAFA; /* 테이블 배경색 설정 */
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 800px;
+   
+   }
+table th {
+      background-color: lightgray;
+   }
+
+table th, table td {
+       padding: 10px;
+       border: 1px solid black;
+   }
+   
+.table-header {
+    background-color: lightgray; /* 원하는 배경색을 여기에 지정하세요 */
+    color: #000; /* 텍스트 색상을 지정하세요 */
+    font-weight: bold; /* 텍스트 굵기를 지정하세요 */
+}
+
+form {
+       margin-top: 20px;
+   }
+
+select, input[type="search"] {
+       padding: 5px;
+       margin-right: 10px;
+   }
+
+input[type="submit"], input[type="button"] {
+       padding: 5px 10px;
+   }
+   
+.btn {
+            display: inline-block;
+            padding: 8px 16px;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+            cursor: pointer;
+            color : #FAFAFA;
+            background-color: #007bff;
+            border: none;
+            height: 32px; /* 버튼 높이 설정 */
+        }
+
+ .btn:hover {
+            background-color: #0056b3;
+        }
+
+.btn:focus {
+            outline: none;
+        }
